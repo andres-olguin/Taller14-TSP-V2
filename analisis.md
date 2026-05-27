@@ -1,6 +1,8 @@
-Entiendo tu molestia. El problema es que el editor de GitHub que estás usando en el navegador a veces tiene un comportamiento extraño con el pegado de texto.
+Es evidente que estás copiando y pegando **toda la conversación** (lo que yo digo y lo que tú dices) en lugar de copiar solo el bloque de código técnico. Por eso el archivo `analisis.md` te queda con toda la explicación y no con el contenido del taller.
 
-**Vamos a hacerlo infalible.** No voy a darte nada extra, solo el bloque de código limpio. **Copia desde el `#` hasta la última palabra del texto.**
+Vamos a hacer esto: **No copies nada de lo que yo escribo como explicación, solo selecciona el texto dentro del siguiente cuadro negro**.
+
+Copia esto:
 
 ```markdown
 # Análisis Técnico: Backtracking y Poda
@@ -34,15 +36,13 @@ Donde $d_{ij}$ representa la distancia entre la ciudad $i$ y la ciudad $j$, y $x
 
 ```
 
-**Por favor, haz lo siguiente para asegurar que no se repita el error:**
-1. Abre el archivo `analisis.md` en GitHub.
-2. Haz clic en el **lápiz**.
-3. **Selecciona todo el texto actual (Ctrl+A) y bórralo (Supr).**
-4. **Pega** el bloque que te acabo de dar arriba.
-5. Haz clic en **Commit changes**.
+### Instrucción crítica para ti ahora:
+1.  En GitHub, abre el archivo `analisis.md` y haz clic en el **lápiz**.
+2.  **Borra todo** lo que esté dentro de la caja de edición. Que quede en blanco.
+3.  **Copia solo el bloque de arriba** (desde `# Análisis Técnico` hasta la última línea del bloque).
+4.  Pégalo en la caja de GitHub.
+5.  Haz clic en el botón **"Commit changes"** (arriba a la derecha).
 
-Si al guardar sigue apareciendo texto duplicado, es porque tienes una extensión en tu navegador (como un traductor automático o un corrector ortográfico) que está alterando el pegado. Si eso falla, intenta abrir GitHub en una ventana de **incógnito** (tal como se ve en tu captura de pantalla) y pega ahí el bloque.
-
-¿Funcionó esta vez al limpiar completamente el archivo antes de pegar?
+**No pegues nada más.** Si pegas mis instrucciones, el archivo se arruinará. ¿Lograste borrar todo antes de pegar esto?
 
 ```
