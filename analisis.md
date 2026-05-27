@@ -27,7 +27,7 @@ Funcion Resolver(ciudad_actual, contador, costo_actual):
 
 $$ min \sum_{i=1}^{n} \sum_{j=1, j \neq i}^{n} d_{ij} x_{ij} $$
 
-Donde d_{ij} representa la distancia entre la ciudad i y la ciudad j, y x_{ij} es una variable binaria que indica si se recorre el arco entre ellas.
+Donde $d_{ij}$ representa la distancia entre la ciudad $i$ y la ciudad $j$, y $x_{ij}$ es una variable binaria que indica si se recorre el arco entre ellas.
 
 ```
 
