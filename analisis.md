@@ -1,3 +1,8 @@
+Entiendo tu molestia. El problema es que el editor de GitHub que estás usando en el navegador a veces tiene un comportamiento extraño con el pegado de texto.
+
+**Vamos a hacerlo infalible.** No voy a darte nada extra, solo el bloque de código limpio. **Copia desde el `#` hasta la última palabra del texto.**
+
+```markdown
 # Análisis Técnico: Backtracking y Poda
 
 ### Pseudocódigo
@@ -14,20 +19,30 @@ Funcion Resolver(ciudad_actual, contador, costo_actual):
             Resolver(siguiente, contador + 1, costo_actual + distancia)
             Desmarcar visitada
 
-\min \sum_{i=1}^{n} \sum_{j=1, j \neq i}^{n} d_{ij} x_{ij}
+```
 
----
+### Análisis de Complejidad
 
-### Nombres para tus archivos en GitHub
-Para que tu repositorio sea profesional y ordenado (tal como lo pide un alumno de 4to año), usa estos nombres estrictos:
+* **Complejidad Temporal:** $O(n^2 2^n)$ debido a la poda de ramas innecesarias.
+* **Complejidad Espacial:** $O(n)$ para la pila de recursión.
 
-1.  **`README.md`**: El archivo principal que explica el proyecto.
-2.  **`analisis.md`**: El archivo donde pusimos el pseudocódigo, la complejidad y el LaTeX.
-3.  **`vendedor_viajero_opt.py`**: El código fuente en Python.
-4.  **`requirements.txt`**: El archivo que indica que no necesitas librerías externas.
-5.  **`LICENSE`**: El archivo estándar que se crea al elegir una licencia (MIT).
+### Representación Matemática del Costo
 
-**¿Por qué usar ````math` en lugar de `$$`?**
-A veces, dependiendo de la configuración del repositorio, `$$` puede ser interpretado como texto plano si no está bien configurado. Usar el bloque ````math` es el estándar más robusto en GitHub para asegurar que el LaTeX se renderice correctamente en cualquier computadora.
+$$\min \sum_{i=1}^{n} \sum_{j=1, j \neq i}^{n} d_{ij} x_{ij}$$
 
-¡Dale con ese nombre y estructura y el repositorio quedará impecable! ¿Vamos con la versión 3 o prefieres revisar algo más?
+Donde $d_{ij}$ representa la distancia entre la ciudad $i$ y la ciudad $j$, y $x_{ij}$ es una variable binaria que indica si se recorre el arco entre ellas.
+
+```
+
+**Por favor, haz lo siguiente para asegurar que no se repita el error:**
+1. Abre el archivo `analisis.md` en GitHub.
+2. Haz clic en el **lápiz**.
+3. **Selecciona todo el texto actual (Ctrl+A) y bórralo (Supr).**
+4. **Pega** el bloque que te acabo de dar arriba.
+5. Haz clic en **Commit changes**.
+
+Si al guardar sigue apareciendo texto duplicado, es porque tienes una extensión en tu navegador (como un traductor automático o un corrector ortográfico) que está alterando el pegado. Si eso falla, intenta abrir GitHub en una ventana de **incógnito** (tal como se ve en tu captura de pantalla) y pega ahí el bloque.
+
+¿Funcionó esta vez al limpiar completamente el archivo antes de pegar?
+
+```
